@@ -1,0 +1,12 @@
+D:\Programs\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.csproj.AssemblyReference.cache
+D:\Programs\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.SuperAdventure.resources
+D:\Programs\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.Properties.Resources.resources
+D:\Programs\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.csproj.GenerateResource.cache
+D:\Programs\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.csproj.CoreCompileInputs.cache
+D:\Programs\SuperAdventure\SuperAdventure\bin\Debug\SuperAdventure.exe.config
+D:\Programs\SuperAdventure\SuperAdventure\bin\Debug\SuperAdventure.exe
+D:\Programs\SuperAdventure\SuperAdventure\bin\Debug\SuperAdventure.pdb
+D:\Programs\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.exe
+D:\Programs\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.pdb
+D:\Programs\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.TradingScreen.resources
+D:\Programs\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.WorldMap.resources

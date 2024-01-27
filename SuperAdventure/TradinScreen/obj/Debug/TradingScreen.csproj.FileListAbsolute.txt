@@ -1,0 +1,10 @@
+D:\Programs\SuperAdventure\TradinScreen\bin\Debug\TradinScreen.exe.config
+D:\Programs\SuperAdventure\TradinScreen\bin\Debug\TradinScreen.exe
+D:\Programs\SuperAdventure\TradinScreen\bin\Debug\TradinScreen.pdb
+D:\Programs\SuperAdventure\TradinScreen\obj\Debug\TradingScreen.csproj.AssemblyReference.cache
+D:\Programs\SuperAdventure\TradinScreen\obj\Debug\TradinScreen.Properties.Resources.resources
+D:\Programs\SuperAdventure\TradinScreen\obj\Debug\TradinScreen.TradingScreen.resources
+D:\Programs\SuperAdventure\TradinScreen\obj\Debug\TradingScreen.csproj.GenerateResource.cache
+D:\Programs\SuperAdventure\TradinScreen\obj\Debug\TradingScreen.csproj.CoreCompileInputs.cache
+D:\Programs\SuperAdventure\TradinScreen\obj\Debug\TradinScreen.exe
+D:\Programs\SuperAdventure\TradinScreen\obj\Debug\TradinScreen.pdb
