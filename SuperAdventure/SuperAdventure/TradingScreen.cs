@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,7 +14,7 @@ namespace SuperAdventure
     public partial class TradingScreen : Form
     {
         private Player _currentPlayer;
-        
+
         public TradingScreen(Player player)
         {
             _currentPlayer = player;
@@ -59,7 +59,13 @@ namespace SuperAdventure
                 DataPropertyName = "ItemID"
             });
             // Bind the player's inventory to the datagridview 
-            dgvMyItems.DataSource = _currentPlayer.Inventory;
+            foreach (InventoryItem inventoryItem in _currentPlayer.Inventory)
+            {
+                if (inventoryItem.Quantity > 0)
+                {
+                    dgvMyItems.Rows.Add(new[] {inventoryItem.ItemID.ToString(), inventoryItem.Details.Name, inventoryItem.Quantity.ToString(), inventoryItem.Price.ToString() });
+                }
+            }
             // When the user clicks on a row, call this function
             dgvMyItems.CellClick += dgvMyItems_CellClick;
 
@@ -93,7 +99,13 @@ namespace SuperAdventure
                 DataPropertyName = "ItemID"
             });
             // Bind the vendor's inventory to the datagridview 
-            dgvVendorItems.DataSource = _currentPlayer.CurrentLocation.VendorWorkingHere.Inventory;
+            foreach (InventoryItem inventoryItem in _currentPlayer.CurrentLocation.VendorWorkingHere.Inventory)
+            {
+                if (inventoryItem.Quantity > 0)
+                {
+                    dgvVendorItems.Rows.Add(new[] {inventoryItem.ItemID.ToString(), inventoryItem.Details.Name, inventoryItem.Price.ToString() });
+                }
+            }
             // When the user clicks on a row, call this function
             dgvVendorItems.CellClick += dgvVendorItems_CellClick;
         }
